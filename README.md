@@ -13,7 +13,7 @@ This question can be answered with some advanced calculus, but that is not alway
 the case. In this project, you will conduct a _Monte Carlo_ simmulation of Buffon's
 needle experiment to obtain the probability _experimentally_.
 
-##Assignment
+## Assignment
 
 This experiment is as much an exercise in monte carlo simmulation as it is in good
 _class encapsulation_. That is, you will represent the various components of the
@@ -66,7 +66,7 @@ position should be generated randomly.
 
 `public double center() {}` returns the center of the needle (same as its location).
 
-`public double angle() {` returns the angle of rotation of the needle.
+`public double angle() {}` returns the angle of rotation of the needle.
 
 ### Simulation API
 A class called `BuffonSimulation` will also be needed. This will represent a single simulation
@@ -80,12 +80,12 @@ care about the value _r = l/t_. The goal of the simmulation is to determine the 
  
 To achieve this, the following API should be implemented in `BuffonSimulation`
 
-`public BuffonSimulation(double r, int n)` constructs and _runs_ a simmulation of the given _r_ value
+`public BuffonSimulation(double r, int n){}` constructs and _runs_ a simmulation of the given _r_ value
 (see above) with _n_ neeldes.
 
-`public double kValue()` which returns the experimentally determined _k_ - value (as above).
+`public double kValue(){}` which returns the experimentally determined _k_ - value (as above).
 
-`public static void main(String[] args)` which does the following:
+`public static void main(String[] args){}` which does the following:
 
 1. Takes a number of simulations to run from the command-line
 2. Prints an experimental value for _k_ averaged accross all simulations run
