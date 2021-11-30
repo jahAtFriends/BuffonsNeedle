@@ -76,7 +76,7 @@ probability. Thus, what we are concerned with is not so much _l_ and _t_ as thei
 
 For that reason (and to make your life just that little bit harder) the simulation will only
 care about the value _r = l/t_. The goal of the simmulation is to determine the _constant_
- _k_ which goes in front of _r_ in the probability: _p(x) = k x r_.
+ _k_ which goes in front of _r_ in the probability: _p(r) = k * r_.
  
 To achieve this, the following API should be implemented in `BuffonSimulation`
 
